@@ -16,7 +16,7 @@ matrix:
 env:
   - GO111MODULE=on
 
-go_import_path: github.com/go-redis/cache
+go_import_path: github.com/rhomber/cache
 
 before_install:
   - redis-server --port 6380 &

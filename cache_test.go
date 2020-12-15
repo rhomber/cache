@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/rhomber/redis/v8"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/go-redis/cache/v8"
+	"github.com/rhomber/cache/v8"
 )
 
 func TestGinkgo(t *testing.T) {

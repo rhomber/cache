@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/rhomber/redis/v8"
 
-	"github.com/go-redis/cache/v8"
+	"github.com/rhomber/cache/v8"
 )
 
 type Object struct {

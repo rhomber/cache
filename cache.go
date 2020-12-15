@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/rhomber/redis/v8"
 	"github.com/klauspost/compress/s2"
 	"github.com/vmihailenco/bufpool"
 	"github.com/vmihailenco/msgpack/v5"
